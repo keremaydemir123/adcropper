@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="style.css" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <h1 class="title">Button with hover effect</h1>
+
+  <div class="container">
+    <button class="button">
+      <span class="button__text">Click here to</span>
+      <span class="button__circle"></span>
+    </button>
+  </div>
+
+  <h1 class="title">Search Box</h1>
+
+  <div class="container">
+    <div class="masked">
+      <div class="wrapper">
+        <span class="input__left"></span>
+        <input type="text" class="input" />
+        <span class="input__right">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title">Login</h1>
+
+  <div class="container">
+    <div id="login">
+      <div class="masked login-input">
+        <div class="wrapper">
+          <span class="fas fa-user"></span>
+          <input type="text" class="input" placeholder="Adcropper" />
+        </div>
+      </div>
+      <div class="masked login-input">
+        <div class="wrapper">
+          <span class="fa fa-lock"></span>
+          <input type="password" class="input" placeholder="Password" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title">Steps</h1>
+
+  <div class="container">
+    <div class="steps">
+      <div class="dots">
+        <div class="step__dot">
+          <div class="step__div">
+            <p class="step__text">Step 1</p>
+          </div>
+        </div>
+        <div class="step__dot">
+          <div class="step__div">
+            <p class="step__text">Step 2</p>
+          </div>
+        </div>
+        <div class="step__dot">
+          <div class="step__div">
+            <p class="step__text">Step 3</p>
+          </div>
+        </div>
+        <div class="step__dot">
+          <div class="step__div">
+            <p class="step__text">Step 4</p>
+          </div>
+        </div>
+        <div class="step__dot">
+          <div class="step__div">
+            <p class="step__text">Step 5</p>
+          </div>
+        </div>
+        <div class="step__dot">
+          <div class="step__div">
+            <p class="step__text">Step 6</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title">Social Media Icons</h1>
+
+  <div class="container">
+    <div id="social-media">
+      <div class="social-icon-container">
+        <i class="fab fa-instagram social-icon"></i>
+        <i class="fab fa-facebook-f social-icon"></i>
+        <i class="fab fa-twitter social-icon"></i>
+        <i class="fab fa-pinterest-p social-icon"></i>
+        <i class="fab fa-tiktok social-icon"></i>
+        <i class="fab fa-whatsapp social-icon"></i>
+        <i class="fab fa-youtube social-icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title">Calendar</h1>
+
+  <div class="container">
+    <div id="calendar">
+      <div class="calendar-select">
+        <h2>October 2022</h2>
+        <i class="fa fa-chevron-down arrow"></i>
+      </div>
+      <div class="arrow-box hidden">
+        <div class="arrow-box__left">
+          <i class="fa fa-chevron-left arrow"></i>
+        </div>
+        <p>October 2022</p>
+        <div class="arrow-box__right">
+          <i class="fa fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="calendar-box hidden"></div>
+    </div>
+  </div>
+
+  <h1 class="title">Div Container</h1>
+
+  <div class="container">
+    <div id="div-container">
+
+      <div class="div-container__left">
+        <div class="masked login-input username">
+          <div class="wrapper">
+            <span class="fas fa-user"></span>
+            <input type="text" class="input" placeholder="Adcropper" />
+          </div>
+        </div>
+        <div class="masked login-input password">
+          <div class="wrapper">
+            <span class="fa fa-lock"></span>
+            <input type="password" class="input" placeholder="Password" />
+          </div>
+        </div>
+        <button class="solid-btn">Giriş yap</button>
+        <p class="login-text">Kayıt ol</p>
+      </div>
+
+      <div class="div-container__right">
+        <div class="masked login-input username">
+          <div class="wrapper">
+            <input type="text" class="input" placeholder="Username" />
+          </div>
+        </div>
+        <div class="masked login-input password">
+          <div class="wrapper">
+            <input type="email" class="input" placeholder="Email" />
+          </div>
+        </div>
+        <div class="masked login-input username">
+          <div class="wrapper">
+            <input type="password" class="input" placeholder="Password" />
+            <span class="fa fa-eye-slash"></span>
+          </div>
+        </div>
+        <div class="masked login-input password">
+          <div class="wrapper">
+            <input type="password" class="input" placeholder="Repeat Password" />
+            <span class="fa fa-eye-slash"></span>
+          </div>
+        </div>
+        <button class="solid-btn">Kayıt ol</button>
+      </div>
+
+    </div>
+  </div>
+
+  <h1 class="title">Combo Box</h1>
+
+  <div class="container">
+    <div id="combo-box">
+      <div class="big-input-div">
+        <div class="wrapper">
+          <input type="text" class="input" value="combo box" disabled />
+          <span class="fa fa-chevron-down combo-arrow arrow"></span>
+        </div>
+      </div>
+      <ul class="options"></ul>
+    </div>
+  </div>
+
+  <h1 class="title">Checkbox</h1>
+
+  <div class="container">
+    <div id="checkbox-container">
+      <div class="line">
+        <div class="radio checked"></div>
+        <div class="checkbox checked">
+          <i class="fa-solid fa-check"></i>
+        </div>
+      </div>
+      <div class="line">
+        <div class="radio"></div>
+        <div class="checkbox">
+          <i></i>
+        </div>
+      </div>
+      <div class="line">
+        <div class="radio disabled"></div>
+        <div class="checkbox disabled">
+          <i></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h1>Kerem Aydemir tarafından hazırlanmıştır. <a href="https://github.com/keremaydemir123/adcropper"
+        target="__blank">Github Repository <span class="fab fa-github"></span></a></h1>
+  </div>
+</body>
+
+</html>
